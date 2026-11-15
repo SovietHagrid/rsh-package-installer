@@ -1,0 +1,145 @@
+"""Catalogue de traductions : clé = texte français, valeur = traduction anglaise."""
+
+CATALOG = {
+    "fr": {},
+    "en": {
+        "Installeur d’archives — République Hagridienne": "Archive Installer — République Hagridienne",
+        "Retour": "Back",
+        "Suivant": "Next",
+        "Quitter": "Quit",
+        "Installeur d’archives": "Archive Installer",
+        "Version {v}": "Version {v}",
+        "Parcourir…": "Browse…",
+        "Applications installées…": "Installed applications…",
+        "Applications installées ({n})…": "Installed applications ({n})…",
+        "Choisir une archive": "Choose an archive",
+        "{n} fichier(s) · {taille} une fois extraite": "{n} file(s) · {taille} once extracted",
+        "Moi seulement": "Just me",
+        "Installé dans votre dossier personnel (<b>~/.local/opt</b>). Aucun mot de passe n’est demandé ; "
+        "les autres utilisateurs de l’ordinateur ne le verront pas.":
+            "Installed in your home folder (<b>~/.local/opt</b>). No password is needed; other users of this "
+            "computer will not see it.",
+        "Tous les utilisateurs": "All users",
+        "Admin": "Admin",
+        "Afficher tous les fichiers de l’archive": "Show every file in the archive",
+        "programme": "program",
+        "script": "script",
+        "fichier": "file",
+        "Sera lancé : <b>{nom}</b>": "Will be launched: <b>{nom}</b>",
+        "Ce logiciel s’utilise dans un terminal": "This software runs in a terminal",
+        "Oui": "Yes",
+        "Une icône du logiciel sera ajoutée sur votre bureau.": "An icon for the software will be added to your desktop.",
+        "Non": "No",
+        "Le logiciel restera accessible depuis le menu des applications.":
+            "The software will remain available from the applications menu.",
+        "Installer": "Install",
+        "Installation…": "Installing…",
+        "Installation en cours…": "Installation in progress…",
+        "Installer une autre archive": "Install another archive",
+        "Terminer": "Finish",
+        "Lancer « {nom} » maintenant": "Launch “{nom}” now",
+        "Désinstaller": "Uninstall",
+        "Confirmer": "Confirm",
+        "Supprimer « {nom} » et ses fichiers ?": "Remove “{nom}” and its files?",
+        "Annuler": "Cancel",
+        "Désinstallation en cours…": "Uninstalling…",
+        "Fermer": "Close",
+        "Langue": "Language",
+        "Archive": "Archive",
+        "Portée": "Scope",
+        "Exécutable": "Executable",
+        "Intégration": "Integration",
+        "Récapitulatif": "Summary",
+        "Progression": "Progress",
+        "Terminé": "Done",
+        "Désinstallation": "Uninstall",
+        "Opération en cours": "Operation in progress",
+        "Patientez : l’opération n’est pas terminée.": "Please wait: the operation is not finished.",
+        "Archive à installer": "Archive to install",
+        "Choisissez une archive de logiciel (.tar.gz, .tgz, .tar.xz, .tar.bz2). L’assistant l’extrait, "
+        "ajoute le logiciel au menu des applications et, si vous le souhaitez, au bureau.":
+            "Choose a software archive (.tar.gz, .tgz, .tar.xz, .tar.bz2). The wizard extracts it, adds the "
+            "software to the applications menu and, if you wish, to the desktop.",
+        "Glissez-déposez une archive ici": "Drag and drop an archive here",
+        "Analyse de l’archive en cours…": "Analysing the archive…",
+        "Dossier racine de l’archive : <b>{nom}</b> (retiré à l’installation)":
+            "Archive root folder: <b>{nom}</b> (removed during installation)",
+        "Exécutable probable : <b>{nom}</b>": "Likely executable: <b>{nom}</b>",
+        "Pour qui installer ?": "Install for whom?",
+        "Choisissez qui pourra utiliser ce logiciel.": "Choose who will be able to use this software.",
+        "Installé dans <b>/opt</b>, avec une entrée dans le menu de chacun. Le mot de passe administrateur "
+        "sera demandé.":
+            "Installed in <b>/opt</b>, with an entry in everyone’s menu. The administrator password will be asked.",
+        "Quel est le fichier exécutable ?": "Which file is the executable?",
+        "C’est le fichier qui lance le logiciel. La liste est triée du plus probable au moins probable ; "
+        "vérifiez le premier choix.":
+            "This is the file that starts the software. The list is sorted from most to least likely; "
+            "check the first choice.",
+        "Le logiciel sera ajouté au menu des applications. Vérifiez son nom et sa catégorie.":
+            "The software will be added to the applications menu. Check its name and category.",
+        "Nom affiché": "Display name",
+        "Catégorie du menu": "Menu category",
+        "Mettre un raccourci sur le bureau ?": "Put a shortcut on the desktop?",
+        "Nom": "Name",
+        "Pour": "For",
+        "Dossier": "Folder",
+        "Commande": "Command",
+        "Menu des applications": "Applications menu",
+        "Raccourci sur le bureau": "Desktop shortcut",
+        "Échec de l’installation": "Installation failed",
+        "Installation terminée": "Installation complete",
+        "« {nom} » est installé.": "“{nom}” is installed.",
+        "Il se trouve dans le menu des applications (recherchez « {nom} »).":
+            "It is in the applications menu (search for “{nom}”).",
+        "Applications installées": "Installed applications",
+        "Choisissez une application installée par cet assistant pour la supprimer.":
+            "Choose an application installed by this wizard to remove it.",
+        "tous les utilisateurs": "all users",
+        "utilisateur": "user",
+        "Désinstallation terminée": "Uninstall complete",
+        "Échec de la désinstallation": "Uninstall failed",
+        "Aucun exécutable évident : vous pourrez le choisir à l’étape suivante.":
+            "No obvious executable: you can pick it in the next step.",
+        "« {nom} » est déjà installé : il sera remplacé.": "“{nom}” is already installed: it will be replaced.",
+        "Une fenêtre vous demandera le mot de passe administrateur.":
+            "A window will ask for the administrator password.",
+        "Un raccourci a été ajouté sur le bureau.": "A shortcut was added to the desktop.",
+        "Dossier : {nom}": "Folder: {nom}",
+        "« {nom} » a été supprimé.": "“{nom}” has been removed.",
+        "Le raccourci du bureau ne sera créé que pour votre compte.":
+            "The desktop shortcut will only be created for your account.",
+        "Lancement impossible": "Cannot launch",
+        "Indisponible : pkexec est introuvable sur ce système.": "Unavailable: pkexec was not found on this system.",
+        "Suppression des fichiers…": "Removing files…",
+        "Fichiers supprimés : {nom}": "Files removed: {nom}",
+        "Mise à jour des menus…": "Updating menus…",
+        "L’archive ne contient aucun fichier.": "The archive contains no files.",
+        "Chemin de l’exécutable invalide.": "Invalid executable path.",
+        "pkexec est introuvable : l’installation pour tous les utilisateurs est impossible.":
+            "pkexec was not found: installing for all users is not possible.",
+        "Échec de l’opération administrateur (code {c}) : {o}": "Administrator operation failed (code {c}): {o}",
+        "Identifiant d’application invalide.": "Invalid application identifier.",
+        "Lecture de l’archive : {nom}": "Reading archive: {nom}",
+        "Préparation de l’intégration…": "Preparing integration…",
+        "Exécutable : {nom}": "Executable: {nom}",
+        "Copie vers la destination…": "Copying to destination…",
+        "Entrée de menu : {nom}": "Menu entry: {nom}",
+        "Commande : {nom}": "Command: {nom}",
+        "Application inconnue : {nom}": "Unknown application: {nom}",
+        "Droits administrateur requis (fenêtre d’authentification).":
+            "Administrator rights required (authentication window).",
+        "Archive illisible : {err}": "Unreadable archive: {err}",
+        "Ce fichier n’est pas une archive valide (.tar.gz, .tar.xz, .tar.bz2) ou il est corrompu.":
+            "This file is not a valid archive (.tar.gz, .tar.xz, .tar.bz2) or it is corrupted.",
+        "Authentification refusée ou annulée.": "Authentication refused or cancelled.",
+        "L’exécutable choisi est introuvable dans l’archive : {nom}":
+            "The chosen executable was not found in the archive: {nom}",
+        "L’exécutable choisi pointe hors de l’application.": "The chosen executable points outside the application.",
+        "Aucune icône trouvée : icône par défaut.": "No icon found: using the default icon.",
+        "Création du raccourci sur le bureau…": "Creating the desktop shortcut…",
+        "Raccourci sur le bureau : {nom}": "Desktop shortcut: {nom}",
+        "Raccourci supprimé : {nom}": "Shortcut removed: {nom}",
+        "Extraction de l’archive…": "Extracting the archive…",
+        "Ignoré : {nom} ({err})": "Skipped: {nom} ({err})",
+    },
+}

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Installeur d’archives République Hagridienne
+Name[en]=République Hagridienne Archive Installer
+Comment=Installe un logiciel téléchargé en .tar.gz (menu, bureau, français ou anglais)
+Comment[en]=Installs software downloaded as .tar.gz (menu, desktop, French or English)
+Exec=rh-archive-installer %f
+Icon=rh-archive-installer
+Terminal=false
+Categories=System;Settings;Qt;
+MimeType=application/gzip;application/x-compressed-tar;application/x-xz-compressed-tar;application/x-bzip-compressed-tar;
+StartupWMClass=rh-archive-installer
+X-AppImage-Name=RH Archive Installer
